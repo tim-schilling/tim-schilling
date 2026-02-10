@@ -2,7 +2,7 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    # Run daily at 00:00 UTC
+    # Run daily at 08:23 UTC
     - cron: '0 0 * * *'
   workflow_dispatch: # Allow manual trigger
   push:
@@ -18,12 +18,14 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8  # v5.0.0
+        with:
+          persist-credentials: true
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@8d9ed9ac5c53483de85588cdf95a591a75ab9f55  # v5.5.0
         with:
-          python-version: '3.10'
+          python-version: '3.13'
 
       - name: Install dependencies
         run: |
