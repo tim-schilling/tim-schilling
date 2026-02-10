@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .ascii-text {
+                font-family: 'Courier New', monospace;
+                font-weight: bold;
+                fill: #000000;
+                font-size: 14px;
+            }
+
+            @keyframes blink {
+                0%, 50% { opacity: 1; }
+                51%, 100% { opacity: 0; }
+            }
+
+            .blink { animation: blink 0.8s step-end infinite; }
+        </style>
+    </defs>
+
+    <!-- Background -->
+    <rect width="800" height="700" fill="#000000"/>
+
+    <!-- White container -->
+    <rect x="100" y="50" width="600" height="600" fill="#ffffff"/>
+
+    <g id="charizard">
+        <animate attributeName="opacity"
+                 values="1;1;0;0;1"
+                 keyTimes="0;0.2333;0.2500;0.9833;1"
+                 dur="24s"
+                 repeatCount="indefinite"/>
+
+        <text x="120" y="85" class="ascii-text" xml:space="preserve">╔════════════════════════════════════════════╗</text>
+        <text x="120" y="105" class="ascii-text" xml:space="preserve">║ No. 006                          CHARIZARD ║</text>
+        <text x="120" y="125" class="ascii-text" xml:space="preserve">║ ────────────────────────────────────────── ║</text>
+        <text x="120" y="145" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="165" class="ascii-text" xml:space="preserve">║ TYPE: FIRE                                 ║</text>
+        <text x="120" y="185" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="205" class="ascii-text" xml:space="preserve">║ CURRENT FLAME:                      5 DAYS ║</text>
+        <text x="120" y="225" class="ascii-text" xml:space="preserve">║ ████████░░░░░░░░░░░░                       ║</text>
+        <text x="120" y="245" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="265" class="ascii-text" xml:space="preserve">║ LONGEST BLAZE:                     12 DAYS ║</text>
+        <text x="120" y="285" class="ascii-text" xml:space="preserve">║ ████████████████████                       ║</text>
+        <text x="120" y="305" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="325" class="ascii-text" xml:space="preserve">║ DAYS ACTIVE:                   27/30 MONTH ║</text>
+        <text x="120" y="345" class="ascii-text" xml:space="preserve">║ ██████████████████░░                       ║</text>
+        <text x="120" y="365" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="385" class="ascii-text" xml:space="preserve">║ This one's tail flame shows coding         ║</text>
+        <text x="120" y="405" class="ascii-text" xml:space="preserve">║ activity! Been keeping the fire            ║</text>
+        <text x="120" y="425" class="ascii-text" xml:space="preserve">║ alive for 5 days. Feed it commits          ║</text>
+        <text x="120" y="445" class="ascii-text" xml:space="preserve">║ to keep it happy!                          ║</text>
+        <text x="120" y="465" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="485" class="ascii-text" xml:space="preserve">║ ────────────────────────────────────────── ║</text>
+        <text x="120" y="505" class="ascii-text" xml:space="preserve">║ ENTRY 1/4                                  ║</text>
+        <text x="120" y="525" class="ascii-text" xml:space="preserve">╚════════════════════════════════════════════╝</text>
+        <text x="120" y="505" class="ascii-text blink" xml:space="preserve">║                                          ▶ ║</text>
+    </g>
+    <g id="snorlax" opacity="0">
+        <animate attributeName="opacity"
+                 values="0;0;1;1;0;0"
+                 keyTimes="0;0.2500;0.2667;0.4833;0.5000;1"
+                 dur="24s"
+                 repeatCount="indefinite"/>
+
+        <text x="120" y="85" class="ascii-text" xml:space="preserve">╔════════════════════════════════════════════╗</text>
+        <text x="120" y="105" class="ascii-text" xml:space="preserve">║ No. 143                            SNORLAX ║</text>
+        <text x="120" y="125" class="ascii-text" xml:space="preserve">║ ────────────────────────────────────────── ║</text>
+        <text x="120" y="145" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="165" class="ascii-text" xml:space="preserve">║ TYPE: REST                                 ║</text>
+        <text x="120" y="185" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="205" class="ascii-text" xml:space="preserve">║ BUGS SQUASHED:                         287 ║</text>
+        <text x="120" y="225" class="ascii-text" xml:space="preserve">║ ██████████████░░░░░░                       ║</text>
+        <text x="120" y="245" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="265" class="ascii-text" xml:space="preserve">║ SNOOZING ON:                   105 TICKETS ║</text>
+        <text x="120" y="285" class="ascii-text" xml:space="preserve">║ █████░░░░░░░░░░░░░░░                       ║</text>
+        <text x="120" y="305" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="325" class="ascii-text" xml:space="preserve">║ WAKE-UP RATE:                  73% SUCCESS ║</text>
+        <text x="120" y="345" class="ascii-text" xml:space="preserve">║ ██████████████░░░░░░                       ║</text>
+        <text x="120" y="365" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="385" class="ascii-text" xml:space="preserve">║ Only wakes up to squash bugs. Has          ║</text>
+        <text x="120" y="405" class="ascii-text" xml:space="preserve">║ dozed off after defeating 287              ║</text>
+        <text x="120" y="425" class="ascii-text" xml:space="preserve">║ issues. Currently snoring through          ║</text>
+        <text x="120" y="445" class="ascii-text" xml:space="preserve">║ 105 open tickets. Zzz...                   ║</text>
+        <text x="120" y="465" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="485" class="ascii-text" xml:space="preserve">║ ────────────────────────────────────────── ║</text>
+        <text x="120" y="505" class="ascii-text" xml:space="preserve">║ ENTRY 2/4                                  ║</text>
+        <text x="120" y="525" class="ascii-text" xml:space="preserve">╚════════════════════════════════════════════╝</text>
+        <text x="120" y="505" class="ascii-text blink" xml:space="preserve">║                                          ▶ ║</text>
+    </g>
+    <g id="gyarados" opacity="0">
+        <animate attributeName="opacity"
+                 values="0;0;1;1;0;0"
+                 keyTimes="0;0.5000;0.5167;0.7333;0.7500;1"
+                 dur="24s"
+                 repeatCount="indefinite"/>
+
+        <text x="120" y="85" class="ascii-text" xml:space="preserve">╔════════════════════════════════════════════╗</text>
+        <text x="120" y="105" class="ascii-text" xml:space="preserve">║ No. 130                           GYARADOS ║</text>
+        <text x="120" y="125" class="ascii-text" xml:space="preserve">║ ────────────────────────────────────────── ║</text>
+        <text x="120" y="145" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="165" class="ascii-text" xml:space="preserve">║ TYPE: WATER/FLYING                         ║</text>
+        <text x="120" y="185" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="205" class="ascii-text" xml:space="preserve">║ TOTAL SPLASHES:                        616 ║</text>
+        <text x="120" y="225" class="ascii-text" xml:space="preserve">║ ███████████░░░░░░░░░                       ║</text>
+        <text x="120" y="245" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="265" class="ascii-text" xml:space="preserve">║ RECENT ACTIVITY:                 196/MONTH ║</text>
+        <text x="120" y="285" class="ascii-text" xml:space="preserve">║ ██████░░░░░░░░░░░░░░                       ║</text>
+        <text x="120" y="305" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="325" class="ascii-text" xml:space="preserve">║ EVOLUTION LVL:                   GYARADOS! ║</text>
+        <text x="120" y="345" class="ascii-text" xml:space="preserve">║ ████████████████████                       ║</text>
+        <text x="120" y="365" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="385" class="ascii-text" xml:space="preserve">║ Started as Magikarp with 0 commits.        ║</text>
+        <text x="120" y="405" class="ascii-text" xml:space="preserve">║ Splashed around and evolved! Now a         ║</text>
+        <text x="120" y="425" class="ascii-text" xml:space="preserve">║ mighty Gyarados with 616 commits.          ║</text>
+        <text x="120" y="445" class="ascii-text" xml:space="preserve">║ Keep splashing!                            ║</text>
+        <text x="120" y="465" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="485" class="ascii-text" xml:space="preserve">║ ────────────────────────────────────────── ║</text>
+        <text x="120" y="505" class="ascii-text" xml:space="preserve">║ ENTRY 3/4                                  ║</text>
+        <text x="120" y="525" class="ascii-text" xml:space="preserve">╚════════════════════════════════════════════╝</text>
+        <text x="120" y="505" class="ascii-text blink" xml:space="preserve">║                                          ▶ ║</text>
+    </g>
+    <g id="ditto" opacity="0">
+        <animate attributeName="opacity"
+                 values="0;0;1;1;0"
+                 keyTimes="0;0.7500;0.7667;0.9833;1"
+                 dur="24s"
+                 repeatCount="indefinite"/>
+
+        <text x="120" y="85" class="ascii-text" xml:space="preserve">╔════════════════════════════════════════════╗</text>
+        <text x="120" y="105" class="ascii-text" xml:space="preserve">║ No. 132                              DITTO ║</text>
+        <text x="120" y="125" class="ascii-text" xml:space="preserve">║ ────────────────────────────────────────── ║</text>
+        <text x="120" y="145" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="165" class="ascii-text" xml:space="preserve">║ TYPE: TRANSFORM                            ║</text>
+        <text x="120" y="185" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="205" class="ascii-text" xml:space="preserve">║ MERGED FORMS:                      917 PRS ║</text>
+        <text x="120" y="225" class="ascii-text" xml:space="preserve">║ █████████████████░░░                       ║</text>
+        <text x="120" y="245" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="265" class="ascii-text" xml:space="preserve">║ OPENED FORMS:                     1029 PRS ║</text>
+        <text x="120" y="285" class="ascii-text" xml:space="preserve">║ ███████████████████░                       ║</text>
+        <text x="120" y="305" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="325" class="ascii-text" xml:space="preserve">║ REVIEWED:                              712 ║</text>
+        <text x="120" y="345" class="ascii-text" xml:space="preserve">║ ██████████████████░░                       ║</text>
+        <text x="120" y="365" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="385" class="ascii-text" xml:space="preserve">║ Transforms into whatever the               ║</text>
+        <text x="120" y="405" class="ascii-text" xml:space="preserve">║ codebase needs! A true team player.        ║</text>
+        <text x="120" y="425" class="ascii-text" xml:space="preserve">║ Merged 917 PRs, opened 1029,               ║</text>
+        <text x="120" y="445" class="ascii-text" xml:space="preserve">║ reviewed 712. Any coding style!            ║</text>
+        <text x="120" y="465" class="ascii-text" xml:space="preserve">║                                            ║</text>
+        <text x="120" y="485" class="ascii-text" xml:space="preserve">║ ────────────────────────────────────────── ║</text>
+        <text x="120" y="505" class="ascii-text" xml:space="preserve">║ ENTRY 4/4                                  ║</text>
+        <text x="120" y="525" class="ascii-text" xml:space="preserve">╚════════════════════════════════════════════╝</text>
+        <text x="120" y="505" class="ascii-text blink" xml:space="preserve">║                                          ▶ ║</text>
+    </g>
+
+    <!-- Controls -->
+    <text x="400" y="670" class="ascii-text" text-anchor="middle" fill="#666666">AUTO: 6s | Updated: 2026-02-10 14:32 UTC</text>
+</svg>
