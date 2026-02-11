@@ -16,6 +16,8 @@ GITHUB_USERNAME = os.environ.get('GITHUB_USERNAME', 'yourusername')
 
 # Box drawing constants
 LINE_WIDTH = 44  # inner width between ║ borders
+CHAR_WIDTH = 8.4  # approximate Courier New 14px character width
+TEXT_LENGTH = CHAR_WIDTH * (LINE_WIDTH + 2)  # total pixel width for a full box line
 
 # Animation constants
 CARD_DISPLAY_SECONDS = 6  # how long each card is visible
@@ -255,7 +257,7 @@ def box_stat(label, value):
 
 def text_el(y, content, css_class="ascii-text"):
     """Create an SVG text element."""
-    return f'        <text x="120" y="{y}" class="{css_class}" xml:space="preserve">{content}</text>'
+    return f'        <text x="120" y="{y}" class="{css_class}" xml:space="preserve" textLength="{TEXT_LENGTH}" lengthAdjust="spacing">{content}</text>'
 
 
 def card_animation(card_index):
@@ -462,7 +464,7 @@ def generate_pokemon_svg(stats):
 
     svg = '\n'.join([
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">',
+        '<svg width="800" height="700" viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">',
         '    <defs>',
         '        <style>',
         '            .ascii-text {',
