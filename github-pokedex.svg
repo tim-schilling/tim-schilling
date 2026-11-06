@@ -43,8 +43,8 @@
         <text x="120" y="265" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ LONGEST BLAZE:                     25 DAYS ║</text>
         <text x="120" y="285" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ████████████████████                       ║</text>
         <text x="120" y="305" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
-        <text x="120" y="325" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ DAYS ACTIVE:                   29/30 MONTH ║</text>
-        <text x="120" y="345" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ███████████████████░                       ║</text>
+        <text x="120" y="325" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ DAYS ACTIVE:                   28/30 MONTH ║</text>
+        <text x="120" y="345" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ██████████████████░░                       ║</text>
         <text x="120" y="365" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
         <text x="120" y="385" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ This one's tail flame shows coding         ║</text>
         <text x="120" y="405" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ activity! Been keeping the fire            ║</text>
@@ -69,19 +69,19 @@
         <text x="120" y="145" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
         <text x="120" y="165" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ TYPE: REST                                 ║</text>
         <text x="120" y="185" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
-        <text x="120" y="205" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ BUGS SQUASHED:                         329 ║</text>
+        <text x="120" y="205" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ BUGS SQUASHED:                         330 ║</text>
         <text x="120" y="225" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ███████████████░░░░░                       ║</text>
         <text x="120" y="245" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
-        <text x="120" y="265" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ SNOOZING ON:                    92 TICKETS ║</text>
+        <text x="120" y="265" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ SNOOZING ON:                    91 TICKETS ║</text>
         <text x="120" y="285" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ████░░░░░░░░░░░░░░░░                       ║</text>
         <text x="120" y="305" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
         <text x="120" y="325" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ WAKE-UP RATE:                  78% SUCCESS ║</text>
         <text x="120" y="345" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ███████████████░░░░░                       ║</text>
         <text x="120" y="365" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
         <text x="120" y="385" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ Only wakes up to squash bugs. Has          ║</text>
-        <text x="120" y="405" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ dozed off after defeating 329              ║</text>
+        <text x="120" y="405" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ dozed off after defeating 330              ║</text>
         <text x="120" y="425" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ issues. Currently snoring through          ║</text>
-        <text x="120" y="445" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ 92 open tickets. Zzz...                    ║</text>
+        <text x="120" y="445" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ 91 open tickets. Zzz...                    ║</text>
         <text x="120" y="465" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
         <text x="120" y="485" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ────────────────────────────────────────── ║</text>
         <text x="120" y="505" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ENTRY 2/4                                  ║</text>
@@ -104,7 +104,7 @@
         <text x="120" y="205" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ TOTAL SPLASHES:                        920 ║</text>
         <text x="120" y="225" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ████████████░░░░░░░░                       ║</text>
         <text x="120" y="245" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
-        <text x="120" y="265" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ RECENT ACTIVITY:                 186/MONTH ║</text>
+        <text x="120" y="265" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ RECENT ACTIVITY:                 185/MONTH ║</text>
         <text x="120" y="285" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ ████░░░░░░░░░░░░░░░░                       ║</text>
         <text x="120" y="305" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║                                            ║</text>
         <text x="120" y="325" class="ascii-text" xml:space="preserve" textLength="386.40000000000003" lengthAdjust="spacing">║ EVOLUTION LVL:                   GYARADOS! ║</text>
@@ -154,5 +154,5 @@
     </g>
 
     <!-- Controls -->
-    <text x="400" y="670" class="ascii-text" text-anchor="middle" fill="#666666">AUTO: 6s | Updated: 2026-11-05 05:56 UTC</text>
+    <text x="400" y="670" class="ascii-text" text-anchor="middle" fill="#666666">AUTO: 6s | Updated: 2026-11-06 05:53 UTC</text>
 </svg>
